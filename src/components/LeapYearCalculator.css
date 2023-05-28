@@ -1,4 +1,37 @@
 .leap-page{
     align-items: center;
     text-align: center;
+
+}
+
+.body{
+    align-items: center;
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+.text{
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-field{
+    width: 100%;
+    align-items: center;
+    padding-left: 10px;
+}
+
+input{
+    height: 30px;
+    width: 170px;
+
+}
+
+.submit-button{
+    padding: 20px;
+    margin-top: 5px;
 }

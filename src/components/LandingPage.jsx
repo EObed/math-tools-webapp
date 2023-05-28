@@ -17,10 +17,10 @@ function LandingPage() {
                 </p>
             </div>
             <div className="body">
-                <button><Link to = "/leap">Leap Year Calculator</Link></button>
-                <button><Link to = "/fibonacci">Fibonacci Sequence</Link></button>
-                <button><Link to = "/factorial">Factorial Calculator</Link></button>
-                <button><Link to = "/kmtom">Kilometres to Miles Convertor</Link></button>
+                <button><Link to = "/leap">Leap Year Calculator</Link></button><br></br>
+                <button><Link to = "/fibonacci">Fibonacci Sequence</Link></button><br></br>
+                <button><Link to = "/factorial">Factorial Calculator</Link></button><br></br>
+                <button><Link to = "/kmtom">Kilometres to Miles Convertor</Link></button><br></br>
             </div>
         </div>
     );
