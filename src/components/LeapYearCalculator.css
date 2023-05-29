@@ -4,14 +4,14 @@
 
 }
 
-.body{
+.body-lyc{
     align-items: center;
     text-align: center;
     display: block;
     padding: 20px;
 }
 
-.text{
+.text-lyc{
     align-items: center;
     width: 100%;
     padding: 10px;
@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.input-field{
+.input-field-lyc{
     width: 100%;
     align-items: center;
     padding-left: 10px;
@@ -31,7 +31,7 @@ input{
 
 }
 
-.submit-button{
+.submit-button-lyc{
     padding: 20px;
     margin-top: 5px;
 }

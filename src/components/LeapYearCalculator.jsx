@@ -37,7 +37,7 @@ function LeapYearCalculator() {
 
     function getData (inputvalue){
         setData(inputvalue.target.value)
-    }
+    } //to get the value from the input field
 
     return (
 
@@ -46,33 +46,33 @@ function LeapYearCalculator() {
             calc?
             LYCalc()
             :null
-        }
-            <div className="title-bar">
+        } 
+            <div className="title-bar-lyc">
                 <h1>Leap Year Calculator</h1>
             </div>
-            <div className="description">
+            <div className="description-lyc">
                 <p>
                     This tool takes in a natural number value from the user and
                     tells whether or not it is a leap year.
                 </p><br></br>
             </div>
-            <div className="body">
-                <div className="text">
+            <div className="body-lyc">
+                <div className="text-lyc">
                     Enter the year below and click Submit
                 </div>
-                <div className="input-field">
+                <div className="input-field-lyc">
                     <form>
                         <input type="text" onChange={getData}></input>
                     </form>
                 </div>
-                <div className="submit-button">
+                <div className="submit-button-lyc">
                     <button onClick={()=> setCalc(true)}>Submit</button>
                     
                 </div>
-                <div className="confirmation" id="confirm">
+                <div className="confirmation-lyc" id="confirm">
                     
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    
                     </p>
                 </div>
             </div>

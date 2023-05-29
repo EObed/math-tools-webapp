@@ -4,17 +4,19 @@
 
 }
 
-.title-bar{
+.title-bar-lp{
     width: 100%;
     text-align: center;
 }
 
-.description{
+.description-lp{
+    margin-top: 30px;
     width: 100%;
     text-align: center;
 }
 
-.body{
+.body-lp{
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }

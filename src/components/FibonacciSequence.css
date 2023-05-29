@@ -1,0 +1,14 @@
+.fibo-page{
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.submit-fibo{
+    padding: 15px;
+}
+
+.fib-conf{
+    width: 100%;
+}
