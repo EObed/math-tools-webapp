@@ -32,6 +32,12 @@ function FibonacciSequence() {
             setFibdata(fibvalue.target.value)
     }
 
+    const handleKeypress = e => {
+        //it triggers by pressing the enter key
+      if (e.keyCode === 13) {
+        setCalcfib(true);
+      }
+    };
 
     return (
         <div className="fibo-page">
@@ -47,16 +53,18 @@ function FibonacciSequence() {
                     <p>Enter your integer value below</p>
                 </div>
                 <div className="input-fibo">
-                    <input type="text" onChange={getFibdata}></input>
+                    <input type="text" onChange={getFibdata} onKeyDown={handleKeypress}></input>
                 </div>
                 <div className="submit-fibo">
                     <button onClick={() => setCalcfib(true)}>Submit</button>
+
                 </div>
                 <div className="fib-conf" id="fib-confirm">
                     <p></p>
                 </div>
             </div>
         </div>
+        
     )
 }
 

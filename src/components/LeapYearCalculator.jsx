@@ -39,6 +39,13 @@ function LeapYearCalculator() {
         setData(inputvalue.target.value)
     } //to get the value from the input field
 
+    const handleKeypress = e => {
+        //it triggers by pressing the enter key
+      if (e.keyCode === 13) {
+        setCalc(true);
+      }
+    };
+
     return (
 
         <div className="leap-page">
@@ -62,7 +69,7 @@ function LeapYearCalculator() {
                 </div>
                 <div className="input-field-lyc">
                     <form>
-                        <input type="text" onChange={getData}></input>
+                        <input type="text" onChange={getData} onKeyDown={handleKeypress}></input>
                     </form>
                 </div>
                 <div className="submit-button-lyc">
